@@ -16,7 +16,6 @@ add_action( 'wp_enqueue_scripts', 'grauburo_styles' );
 //  --- Functions ---
 
 function grauburo_styles() {
-  wp_enqueue_style( 'normalize', get_template_directory_uri() . '/css/normalize.min.css' );
   wp_enqueue_style( 'lity', get_template_directory_uri() . '/css/lity.min.css' );
   wp_enqueue_style( 'theme-style', get_stylesheet_uri() );
   wp_enqueue_script( 'jquery' );
