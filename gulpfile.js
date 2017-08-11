@@ -43,7 +43,7 @@ gulp.task('build', function() {
       require('postcss-cssnext'),
       require('cssnano')({ autoprefixer: false })
     ]))
-    .pipe(rename({basename: 'style'))
+    .pipe(rename({basename: 'style'}))
     .pipe(gulp.dest(path.build.css));
 });
 
