@@ -844,13 +844,19 @@ body {
 
 /* full-article */
 
-.full-article img.alignleft {
+.full-article a img.alignleft,
+.full-article img.alignleft,
+.cat-descr a img.alignleft,
+.cat-descr img.alignleft {
   float: left;
   margin-right: 15px;
   margin-bottom: 15px;
 }
 
-.full-article a img.alignright {
+.full-article a img.alignright,
+.full-article img.alignright,
+.cat-descr img.alignright,
+.cat-descr img.alignright {
   float: right;
   margin-left: 15px;
   margin-bottom: 15px;
